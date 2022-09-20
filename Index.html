@@ -10,23 +10,23 @@
         <form id="formulario" name="">
             <h4>Formulario </h4>
             <div>
-                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
             </div>
             <br>
             <br>
             <div>
-                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required>
             </div>
             <br>
             <br>
             <div>
-                <input class="controls" type="text" name="Apodo" id="Apodo" placeholder="Ingrese su Apodo">
+                <input class="controls" type="text" name="Apodo" id="Apodo" placeholder="Ingrese su Apodo" required>
             </div>
             <br>
             <br>
            
            
-            <button onclick="enviar();">enviar</button>
+            <button onclick="enviar(nombres,apellidos,apodo);">enviar</button>
             <button onclick="limpiar();">Limpiar</button>
 
 
